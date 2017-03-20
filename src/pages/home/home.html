@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2 style="text-align: center;">Welcome to Payffer!</h2>
+  <div>
+    <img src="images/home.jpg">
+  </div>
+  <div>
+    <ion-row>
+      <ion-col width-33>
+        <button ion-button block (click)='pay()'>Pay</button>
+      </ion-col>
+      <ion-col width-3>
+        <button ion-button block (click)='displayQR()'>Receive</button>
+      </ion-col>
+      <ion-col width-3>
+        <button ion-button block >reload</button>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>
